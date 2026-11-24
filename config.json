@@ -1,7 +1,7 @@
 {
   "serverName": "GLOBAL SMP",
-  "serverIp": "example.com",
-  "bedrockPort": 19132,
+  "serverIp": "play.rohansmp.kdns.fr",
+  "bedrockPort": 25565,
   "bedrockPlayersCanJoin": true, 
   "discordLink": "https://discord.gg/xpg9Ks7TB",
   "logoPath": "c8493c37c348a55e86897d39a8daa81d.webp",
