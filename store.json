@@ -20,7 +20,7 @@
 
   "redirect": {
     "_help": "Where 'Buy now' / 'Continue to payment' sends players when the item has no orderLink of its own. Leave it empty to use the Discord link from config.json.",
-    "defaultOrderLink": ""
+    "defaultOrderLink": "https://discord.gg/3PJCuff53b"
   },
 
   "pages": {
@@ -52,7 +52,7 @@
           "name": "1,000 coins",
           "amount": "1K",
           "image": "assets/coin.png",
-          "price": { "INR": 99, "USD": 0.99 },
+          "price": { "INR": 0, "USD": 0 },
           "colour": "gold",
           "tagline": "A small top-up for everyday shopping.",
           "perks": ["1,000 in-game coins", "Added to your balance instantly"],
@@ -63,7 +63,7 @@
           "name": "5,000 coins",
           "amount": "5K",
           "image": "assets/coin.png",
-          "price": { "INR": 399, "USD": 4.99 },
+          "price": { "INR": 0, "USD": 0 },
           "colour": "#eab308",
           "tagline": "Most popular pack with bonus coins.",
           "perks": ["5,000 in-game coins", "+500 bonus coins"],
@@ -74,7 +74,7 @@
           "name": "12,000 coins",
           "amount": "12K",
           "image": "assets/coin.png",
-          "price": { "INR": 799, "USD": 9.99 },
+          "price": { "INR": 0, "USD": 0 },
           "colour": "orange",
           "tagline": "Best value for regular players.",
           "perks": ["12,000 in-game coins", "+2,000 bonus coins"],
@@ -136,7 +136,7 @@
   "ranks": [
     {
       "name": "VIP",
-      "price": { "INR": 449, "USD": 4.99 },
+      "price": { "INR": 15, "USD": 15 },
       "colour": "gold",
       "tagline": "A perfect first step to support the server.",
       "perks": [
@@ -150,7 +150,7 @@
     },
     {
       "name": "VIP+",
-      "price": { "INR": 749, "USD": 7.99 },
+      "price": { "INR": 15, "USD": 15 },
       "colour": "#a855f7",
       "tagline": "More homes, more commands, more fun.",
       "perks": [
@@ -165,7 +165,7 @@
     },
     {
       "name": "MVP",
-      "price": { "INR": 899, "USD": 9.99 },
+      "price": { "INR": 20, "USD": 20 },
       "colour": "blue",
       "tagline": "Stand out everywhere you go.",
       "perks": [
@@ -180,7 +180,7 @@
     },
     {
       "name": "GOD",
-      "price": { "INR": 1799, "USD": 19.99 },
+      "price": { "INR": 30, "USD": 30 },
       "colour": "red",
       "tagline": "The full package for serious players.",
       "perks": [
